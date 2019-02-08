@@ -9,7 +9,8 @@ body{
                          "section section aside aside"
                          "footer footer footer footer";
 
-    grid-template-rows: 200px 50px 700px 100px;                     
+    grid-template-rows: 200px 50px 500px 500px;    
+    grid-template-columns: 25vw 25vw 25vw 25w;                 
 
 }
 header{
@@ -33,6 +34,16 @@ nav{
 section{
     grid-area: section;
     background-color: blue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+section img{
+    width: 400px;
+    height: auto;
 }
 aside{
     grid-area: aside;
